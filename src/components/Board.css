@@ -1,0 +1,32 @@
+.Board {
+  display: grid;
+  margin: 2em auto;
+  grid-gap: 2px;
+  background: rgb(32, 0, 64);
+  border: 10px solid rgb(32, 0, 64);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 28em;
+  height: 52em;
+}
+
+@media screen and (max-width: 1366px) {
+  .Board {
+    width: 22em;
+    height: 40em;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .Board {
+    width: 22em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Board {
+    width: 70%;
+    height: 600px;
+    margin: 5em 0;
+  }
+}
